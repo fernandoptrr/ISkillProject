@@ -1,0 +1,111 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Banner {
+    background-image: url("../Assets/Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
+    height:57vh;
+}
+.Terlaris{
+    color:#dddddd;
+    font-size:40px;
+    padding-top:2rem;
+    margin-left:15rem;
+}
+.Left-Content{
+    padding-top:1rem;
+    color:#dddddd;
+}
+
+.Title-Study{
+    padding-bottom:7px;
+}
+
+.Wrapper-img-text{
+    display:flex;
+    justify-content:space-around;
+}
+
+.ImgBanner{
+    width:480px;
+}
+
+.Rate {
+    display: flex;
+    padding-bottom: 5px;
+}
+.Rate-Text{
+    font-size:18px;
+    margin-right:4px;
+}
+.star
+{
+    width:20px;
+    margin-right:5px;
+}
+
+.Btn-Trial {
+    border: none;
+    background-color: #47597E;
+    color:#dddddd;
+    font-size:18px;
+    font-weight:bold;
+    width:165px;
+    height:30px;
+    border-radius:15px;
+    margin-top:3rem;
+    margin-left:2rem;
+}
+    .Btn-Trial:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+.BtnBelajar {
+    border: none;
+    background-color: #47597E;
+    color: #dddddd;
+    font-size: 15px;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    border-radius: 15px;
+}
+.BtnBelajar:hover {
+    cursor: pointer;
+    opacity:0.7;
+}
+
+
+.Class-Bottom{
+    font-size:28px;
+    font-weight:bold;
+    padding-top:1rem;
+    padding-left:3rem;
+}
+.Belajar{
+    font-size: 25px;
+}
+.Pos-Title{
+    align-items:center;
+    text-align:center;
+}
+
+.Table1{
+    width:200px;
+}
+
+.Pos-Repeat {
+    padding-top:50px;
+}
+.Eror{
+    font-size:20px;
+    color:orangered;
+    display:flex;
+    justify-content:center;
+}

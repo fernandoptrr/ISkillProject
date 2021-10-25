@@ -1,0 +1,65 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Content {
+    height: 83vh;
+    background-image: url("../Assets/bg_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -30px;
+}
+
+.Logins {
+    width: 300px;
+    height: 180px;
+    padding: 20px 30px 30px 30px;
+    background: rgba(255, 204, 204, 0.8);
+    text-align: center;
+    border: 2px solid #FFE2E2;
+    border-radius: 50px 0 50px 0;
+}
+
+.Login-Text {
+    color: #5D5B77;
+    font-size:21px;
+}
+
+.Position{
+    display:flex;
+    padding-top:150px;
+    justify-content:center;
+}
+
+.menu-reg {
+    width: 100%;
+    height: 22px;
+    background: rgba(255, 204, 204, 0.5);
+    border-radius: 10px 0 10px 0;
+    color: #5D5B77;
+    border: 2px solid #FFE2E2;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.LoginBtn {
+    margin-top: 10px;
+    color: #DDDDDD;
+    font-size: 18px;
+    background-color: #5D5B77;
+    border:none;
+    border-radius:8px;
+    width:60px;
+    height:25px;
+    cursor:pointer;
+}
+
+.LoginBtn:hover
+{
+    opacity:0.8;
+}
+p{
+    font-weight:bolder;
+}

@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavbarFooter.master.cs" Inherits="ISkillProject.View.NavbarFooter" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <link href="../Css/NavbarFooter.css" rel="stylesheet" />
+    <form id="form1" runat="server">
+        <div>
+            <div class="Header">
+                <div class="Wrapper">
+                    <div class="Logo">
+                        <a href="#" class="Logo">
+                            <asp:Image ID="Image11" runat="server" ImageUrl="~/Assets/monitor.png"/>
+                            <div class="Titles"><strong>ISkill.</strong></div>
+                        </a>
+                    </div>
+                    <div class="Menu-Header">
+                        <div>
+                            <asp:Button ID="Button1" CssClass="Menu" runat="server" Text="Home" OnClick="Button1_Click" />
+                        </div>
+                        <div>
+                             <asp:Button ID="Button2" CssClass="Menu" runat="server" Text="Kelas" OnClick="Button2_Click"/>
+                        </div>
+                        <div>
+                             <asp:Button ID="Button4" CssClass="Menu" runat="server" Text="Note" OnClick="Button4_Click"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="Logout-Wrap">
+                    <a href="/View/LoginPage.aspx" class="Logout">Logout</a>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="Footer">
+                <div class="Logo-Footer">
+                    <div class="TitleFooter"><strong>ISkill.</strong></div>
+                </div>
+                <div class="text">Belajar apa pun yang kamu mau<br /> dengan para pengajar kesayanganmu,<br /> kemudian ambil sertifikasi dan raih<br /> kesempatan kerja di berbagai perusahaan.</div>
+                <div class="Social">
+                    <a href="#">
+                        <asp:Image ID="IG" runat="server" ImageUrl="~/Assets/Ig.png"/>
+                    </a>
+                    <a href="#">
+                        <asp:Image ID="FB" runat="server" ImageUrl="~/Assets/Fb.png"/>
+                    </a>
+                    <a href="#">
+                        <asp:Image ID="TW" runat="server" ImageUrl="~/Assets/tw.png"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

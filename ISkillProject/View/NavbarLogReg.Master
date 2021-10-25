@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavbarLogReg.master.cs" Inherits="ISkillProject.View.NavbarLogReg" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <link href="../Css/NavLogReg.css" rel="stylesheet" />
+    <form id="form1" runat="server">
+        <div>
+            <div class="Header">
+                <div class="Logo">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Assets/monitor.png"/>
+                    <div class="Title"><strong>ISkill.</strong></div>
+                </div>
+                <div class="LogReg">
+                    <div>
+                        <a href="LoginPage.aspx" class="NavLogin">Login</a>
+                    </div>
+                    <div>
+                        <a href="Register.aspx" class="NavRegister">Register</a>
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="Footer">
+                <div class="Logo-Footer">
+                    <div class="Title"><strong>ISkill.</strong></div>
+                </div>
+                <div class="text">Belajar apa pun yang kamu mau<br /> dengan para pengajar kesayanganmu,<br /> kemudian ambil sertifikasi dan raih<br /> kesempatan kerja di berbagai perusahaan.</div>
+                <div class="Social">
+                    <a href="#">
+                        <asp:Image ID="IG" runat="server" ImageUrl="~/Assets/Ig.png"/>
+                    </a>
+                    <a href="#">
+                        <asp:Image ID="FB" runat="server" ImageUrl="~/Assets/Fb.png"/>
+                    </a>
+                    <a href="#">
+                        <asp:Image ID="TW" runat="server" ImageUrl="~/Assets/tw.png"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
